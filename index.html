@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -18,7 +19,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,10 +31,78 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table table-striped">
+        <tr>
+          <!-- shows time -->
+          <th id="hoursblock9am" class="hour">
+            <!-- insert work hours here -->
+            <p>9am</p>
+          </th>
+          <!-- shows text field -->
+          <th id="textblock9am">
+            <!--insert text field here-->
+            <textarea></textarea>
+          </th>
+          <!-- save "button" -->
+          <th>
+            <button class="saveBtn">SAVE</button>
+          </th>
+        </tr>
+          <tr>
+            <!-- shows time -->
+            <th id="hoursblock10am" class="hour">
+              <!-- insert work hours here -->
+              <p>10am</p>
+            </th>
+            <!-- shows text field -->
+            <th id="textblock10am">
+              <!--insert text field here-->
+              <textarea></textarea>
+            </th>
+            <!-- save "button" -->
+            <th>
+              <button class="saveBtn">SAVE</button>
+            </th>
+          </tr>
+          <tr>
+            <!-- shows time -->
+            <th id="hoursblock11am" class="hour">
+              <!-- insert work hours here -->
+              <p>11am</p>
+            </th>
+            <!-- shows text field -->
+            <th id="textblock11am">
+              <!--insert text field here-->
+              <textarea></textarea>
+            </th>
+            <!-- save "button" -->
+            <th>
+              <button class="saveBtn">SAVE</button>
+            </th>
+            <tr>
+              <!-- shows time -->
+              <th id="hoursblock12am" class="hour">
+                <!-- insert work hours here -->
+                <p>12pm</p>
+              </th>
+              <!-- shows text field -->
+              <th id="textblock12am">
+                <!--insert text field here-->
+                <textarea></textarea>
+              </th>
+              <!-- save "button" -->
+              <th>
+                <button class="saveBtn">SAVE</button>
+              </th>
+            </tr>
+          </tr>
+      </table>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
