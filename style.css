@@ -1,9 +1,10 @@
+/* CONNECTED */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/* CONNECTED */
 textarea {
   background: transparent;
   border: none;
@@ -12,30 +13,31 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/* CONNECTED */
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: rgb(60, 162, 175);
+  color: rgb(255, 255, 255);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 20px solid rgb(13, 48, 53);
 }
-
+/* CONNECTED */
 .description {
   white-space: pre-wrap;
 }
-
+/* CONNECTED */
 .time-block {
   text-align: center;
   border-radius: 15px;
 }
-
+/* CONNECTED */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  margin: 42px;
 }
-
+/* CONNECTED */
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -56,7 +58,7 @@ textarea {
   background-color: #77dd77;
   color: white;
 }
-
+/* CONNECTED */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -64,8 +66,8 @@ textarea {
   background-color: #06aed5;
   color: white;
 }
-
-.saveBtn i:hover {
+/* CONNECTED */
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
