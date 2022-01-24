@@ -33,9 +33,9 @@ textarea {
 /* CONNECTED */
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 40px;
   border-top: 1px solid white;
-  margin: 42px;
+  margin: 13px;
 }
 /* CONNECTED */
 .hour {
@@ -45,17 +45,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #7a7a7a;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f04d45;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #52d452;
   color: white;
 }
 /* CONNECTED */
