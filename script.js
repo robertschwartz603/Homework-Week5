@@ -26,15 +26,13 @@ $("#2pm .description").val(localStorage.getItem("2pm"));
 $("#3pm .description").val(localStorage.getItem("4pm"));
 $("#5pm .description").val(localStorage.getItem("5pm"));
 
-// gets time for top of page
+// gets time for top of page (simplified)
 function TimeUpdate() {
-    var today = moment().format("MMM DD, YYYY [at] hh:mm:ss A");
-    $("#currentDay").text(today);
-    dateElement.textContent = today;
-
+    dateElement.textContent = moment().format("MMM DD, YYYY [at] hh:mm:ss A");
+    // $("#currentDay").text(today);
+    // dateElement.textContent = today
 }
 setInterval(TimeUpdate, 1000);
-
 
 //asigns an integer value to hours for comparison to currentTime
 //military 24 hour time format is used here.
